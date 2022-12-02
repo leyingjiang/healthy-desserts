@@ -465,15 +465,6 @@ body {
     width: auto;
 }
 
-div{
-    background-color: #E5D3B3;
-    height: 400px;
-    width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 70px;
-}
-
 h3{
     font-family: 'Palanquin', sans-serif;
     color: #664229;
@@ -531,17 +522,25 @@ nav ul{
     align-items: center;
 }
 
-nav ul{
+
+.game, .generate, .ending{
+  background-color: #E5D3B3;
+  height: 400px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 70px;
+}
+
+.choices {
+  text-align: center;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  justify-content:center;
 }
 
-
-
-
-    
-
-    
+.generate a {
+  text-decoration: none;
+  color: black;
+}
