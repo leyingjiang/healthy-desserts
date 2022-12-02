@@ -8,19 +8,36 @@ const extraCChoice = Array.from(document.getElementsByName("extraCChoice"));
 const beanBChoice = Array.from(document.getElementsByName("BeanBChoice"));
 const extraBChoice = Array.from(document.getElementsByName("extraBChoice"));
 
+const caloriesChoice = Array.from(fruitFBChoice, extraFBChoice, flourCChoice, extraCChoice, beanBChoice, extraBChoice);
+
 /* inputs */
-const performanceInput = document.querySelector("#performance")
-const caloriesInput = document.querySelector("#calories")
-const adviceInput = document.querySelector("#advice")
-const recipeInput = document.querySelector("#recipe")
+const performanceInput = document.querySelector("#performance");
+const caloriesInput = document.querySelector("#calories");
+const adviceInput = document.querySelector("#advice");
+const recipeInput = document.querySelector("#recipe");
 
 /* buttons add eventlistener */
-
+caloriesChoice[0].addEventListener("change", applyCalories);
+caloriesChoice[1].addEventListener("change",applyCalories);
+caloriesChoice[2].addEventListener("change",applyCalories);
+caloriesChoice[3].addEventListener("change",applyCalories);
+caloriesChoice[4].addEventListener("change",applyCalories);
+caloriesChoice[5].addEventListener("change",applyCalories);
 
 /* functions */
 
-function caculateTotal(){
-
+function calculateTotal(currentCalories){
+    caloriesInput.value= currentCalories + currentCalories;
 }
 
-function 
+function applyCalories(){
+    let currentCalories = null;
+    caloriesChoice.forEach((item) =>
+    {
+        if(item.checked){
+            currentCalories = item.value;
+        }
+    });
+    calculateTotal(currentCalories);
+}
+
