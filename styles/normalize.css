@@ -401,7 +401,7 @@ body {
   header h1{
     font-family: 'Handlee', cursive;
     color: #664229;
-    font-weight:1200;
+    font-weight: 3000;
     font-size: 100px;
     padding-top: 1.5em;
     -webkit-text-stroke-width: 2.5px;
@@ -421,20 +421,6 @@ body {
     color: #987554;
     font-weight: bold;
     font-size: 20px;
-  }
-
-  nav ul li{
-    background: #f1b6ac;
-    list-style: none;
-    font-size: 20px;
-    font-family: 'Patrick Hand SC', cursive;
-    font-weight: bold;
-    text-align: center;
-    border: 3px solid;
-    border-radius: 10px;
-    height: 40px;
-    width: 250px;
-    margin: 3px;
   }
 
 body,
@@ -465,15 +451,6 @@ body {
     width: auto;
 }
 
-div{
-    background-color: #E5D3B3;
-    height: 400px;
-    width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 70px;
-}
-
 h3{
     font-family: 'Palanquin', sans-serif;
     color: #664229;
@@ -483,55 +460,97 @@ h3{
     padding-top: 30px;
 }
 
-div ul li{
-    background: #fde9ea;
-    list-style: none;
-    font-size: 20px;
-    font-family: 'Patrick Hand SC', cursive;
-    font-weight: bold;
-    text-align: center;
-    border-radius: 10px;
-    height: 60px;
-    width: 250px;
-    margin: 3px;
-}
-
-div ul{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding-top: 50px;
-}
 
 nav a, div a{
     color: #846648;
     text-decoration: none;
 }
 
-nav ul li{
-    background: #f1b6ac;
-    list-style: none;
-    font-size: 20px;
-    font-family: 'Patrick Hand SC', cursive;
-    font-weight: bold;
-    text-align: center;
-    border-radius: 10px;
-    height: 40px;
-    width: 250px;
-    margin: 3px;
-}
-  
-nav ul{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+.game, .generate, .ending{
+  background-color: #E5D3B3;
+  height: 400px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 70px;
 }
 
-nav ul{
+.button {
+  background: #f1b6ac;
+  list-style: none;
+  font-size: 20px;
+  font-family: 'Patrick Hand SC', cursive;
+  font-weight: bold;
+  text-align: center;
+  border: 3px solid;
+  border-radius: 10px;
+  height: 40px;
+  width: 250px;
+  margin: 3px;
+}
+
+.choices {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:center;
+}
+
+.generate a {
+  text-decoration: none;
+}
+
+.frontbutton{
+  background: var(--pink-3);
+  list-style: none;
+  font-size: 20px;
+  font-family: 'Patrick Hand SC', cursive;
+  font-weight: bold;
+  text-align: center;
+  border: 3px solid #664229;
+  border-radius: 10px;
+  height: 40px;
+  width: 350px;
+  margin: 3px;
+}
+.choices{
+  background: var(--pink-2);
+  list-style: none;
+  font-size: 20px;
+  font-family: 'Patrick Hand SC', cursive;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+  height: 60px;
+  width: 250px;
+  margin: 3px;
+}
+
+.longchoices{
+  background: var(--pink-2);
+  list-style: none;
+  font-size: 20px;
+  font-family: 'Patrick Hand SC', cursive;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+  height: 60px;
+  width: 400px;
+  margin: 3px;
+  block-size: fit-content;
+}
+
+.generate{
+  list-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color:#664229;
+  font-family: 'Patrick Hand SC', cursive;
+}
+
+nav.frontfoot{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -539,9 +558,30 @@ nav ul{
   align-items: center;
 }
 
+nav.foot{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 
+div.game{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 
+article img{
+  width: 100%;
+  height: auto;
+}
 
-    
+@media screen and (min-width: 600px) {
+  article img {
+    float: right;
+    width: 50%;
+  }
 
-    
