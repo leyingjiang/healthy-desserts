@@ -381,6 +381,10 @@ body {
     --pink-1:#FDE9ea;
     --pink-2: #ffddd6;
     --pink-3: #f1b6ac;
+    --green-1:#ACD1AF;
+    --green-2:#ACD1C2;
+    --green-3:#BCD1AC;
+    
   }
 
   header{
@@ -464,6 +468,7 @@ nav a, div a{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
 }
 
 .generate{
@@ -484,7 +489,7 @@ nav a, div a{
   margin-right: auto;
 }
 
-.generate a {
+.generate a{
   text-decoration: none;
   color: #664229;
 }
@@ -646,3 +651,16 @@ div.generatepage {
   margin-right: auto;
   display: block;
 }
+
+.education{
+  max-width: 800px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-family: 'Palanquin',sans-serif;
+  font-size: 20px;
+}
+
+/* buttton on click */
+.button:hover, .choices:hover, .longchoices:hover, .frontbutton:hover, .generate:hover{
+  background-color: var(--green-3);
+  cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🍰</text></svg>") 16 0,auto; /*!emojicursor.app*/
