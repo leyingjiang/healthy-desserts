@@ -32,26 +32,27 @@ SecondChoice[5].addEventListener("change",getSecondChoice);
 /* functions */
 
 function getFirstChoice() {
-    for(var i=0; i< FirstChoice.length;i++){
-        if(FirstChoice[i].checked){
-            FirstCalories += FirstChoice[i].value;
+    let firstCalories = null;
+    FirstChoice.forEach((item) => {
+        if (item.checked){
+            firstCalories = item.value;
         }
-    }
-    return FirstCalories;
+    });
+    getTotalCalories(firstCalories);
 }
 
-function getSecondChoice() {
-    for(var i=0; i<SecondChoice.length;i++){
-        if(SecondChoice[i].checked){
-            SecondCalories += SecondChoice[i].value;
-        }
-        return SecondCalories;
-    }
-
+function getSecondChoice(){
+    let secondCalories = null;
+    SecondChoice.forEach((item) => {
+        if (item.checked){
+            seconfCalories = item.value;
+        }};
+        getTotalCalories(secondCalories);
+    )
 }
 
-function getTotalCalories() {
-    caloriesInput = getFirstChoice() + getSecondChoice();
+function getTotalCalories(firstCalories, secondCalories) {
+    caloriesInput.value = firstCalories + secondCalories;
 }
 
 
