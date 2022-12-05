@@ -400,8 +400,9 @@ body {
   header h1 {
     font-family: 'Handlee', cursive;
     color: #664229;
-    font-size: 120px;
-    padding-top: 1.7em;
+    font-size: 105px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     font-weight: bold;
     -webkit-text-stroke-width: 1.3px;
     -webkit-text-stroke-color: white;
@@ -411,7 +412,7 @@ body {
     font-family: 'Patrick Hand SC', cursive;
     color: #987554;
     font-size: 35px;
-    line-height: 40px;
+    line-height: 10px;
   }
 
   header p {
@@ -449,6 +450,12 @@ h3{
     font-weight:bold;
     font-size: 20px;
     text-align: center;
+}
+
+.front-desserts img{
+  height: 250px;
+  width: 250px;
+  border-radius: 8%;
 }
 
 
@@ -591,8 +598,8 @@ div.game{
 }
 
 article img{
-  width: 100%;
-  height: auto;
+  height: 100%;
+  width: auto;
   border-radius: 20%;
 }
 
