@@ -383,11 +383,6 @@ body {
     --pink-3: #f1b6ac;
   }
 
-  img{
-    height: 40px;
-    width: auto;
-  }
-
   header{
     text-align: center;
     margin-bottom: 5em;
@@ -461,6 +456,7 @@ nav a, div a{
 
 .game, .generate, .ending{
   background-color: #E5D3B3;
+  border-radius: 8%;
   height: 400px;
   width: 500px;
   margin-left: auto;
@@ -573,6 +569,7 @@ div.game{
 article img{
   width: 100%;
   height: auto;
+  border-radius: 20%;
 }
 
 body img{
@@ -615,4 +612,20 @@ div.generatepage {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+}
+
+.dessertimage {
+  height: 55px;
+  width: auto;
+  border-radius: 30%;
+}
+
+.choiceimage{
+  height: 100px;
+  width: auto;
+  border-radius: 15%;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
