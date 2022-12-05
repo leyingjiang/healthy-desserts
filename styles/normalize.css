@@ -396,12 +396,11 @@ body {
   header h1 {
     font-family: 'Handlee', cursive;
     color: #664229;
-    font-weight: 3000;
-    font-size: 100px;
-    padding-top: 1.5em;
-    -webkit-text-stroke-width: 2.5px;
+    font-size: 120px;
+    padding-top: 1.7em;
+    font-weight: bold;
+    -webkit-text-stroke-width: 1.3px;
     -webkit-text-stroke-color: white;
-    letter-spacing: 0.06em;
   }
 
   header h3 {
@@ -529,7 +528,7 @@ nav a, div a{
 }
 
 .choices{
-  background: var(--pink-2);
+  background: var(--pink-1);
   list-style: none;
   font-size: 20px;
   font-family: 'Patrick Hand SC', cursive;
@@ -547,7 +546,7 @@ nav a, div a{
 }
 
 .longchoices{
-  background: var(--pink-2);
+  background: var(--pink-1);
   list-style: none;
   font-size: 20px;
   font-family: 'Patrick Hand SC', cursive;
@@ -613,9 +612,8 @@ h1 {
   font-family: 'Handlee', cursive;
   color: #664229;
   font-size: 55px;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 0.8px;
   -webkit-text-stroke-color: white;
-  letter-spacing: 0.06em;
 }
 
 h2 {
