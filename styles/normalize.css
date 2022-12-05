@@ -454,7 +454,43 @@ nav a, div a{
     text-decoration: none;
 }
 
-.game, .generate, .ending{
+.game{
+  background-color: #E5D3B3;
+  border-radius: 8%;
+  height: 400px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 70px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.generate{
+  background-color: #E5D3B3;
+  border-radius: 8%;
+  height: 300px;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 70px;
+  margin-top: 20px;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  color:#664229;
+  font-family: 'Patrick Hand SC', cursive;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.generate a {
+  text-decoration: none;
+  color: #664229;
+}
+
+.ending{
   background-color: #E5D3B3;
   border-radius: 8%;
   height: 400px;
@@ -478,19 +514,6 @@ nav a, div a{
   margin: 3px;
 }
 
-.choices {
-  text-align: center;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content:center;
-}
-
-.generate a {
-  text-decoration: none;
-  color: #664229;
-}
-
 .frontbutton{
   background: var(--pink-3);
   list-style: none;
@@ -504,6 +527,7 @@ nav a, div a{
   width: 350px;
   margin: 3px;
 }
+
 .choices{
   background: var(--pink-2);
   list-style: none;
@@ -513,8 +537,13 @@ nav a, div a{
   text-align: center;
   border-radius: 10px;
   height: 60px;
-  width: 250px;
+  width: 400px;
   margin: 3px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:center;
 }
 
 .longchoices{
@@ -531,17 +560,6 @@ nav a, div a{
   block-size: fit-content;
 }
 
-.generate{
-  list-style: none;
-  font-size: 50px;
-  font-weight: bold;
-  text-align: center;
-  color:#664229;
-  font-family: 'Patrick Hand SC', cursive;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 nav.frontfoot{
   display: flex;
   flex-direction: row;
@@ -556,6 +574,7 @@ nav.foot{
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  margin-bottom: 70px;
 }
 
 div.game{
