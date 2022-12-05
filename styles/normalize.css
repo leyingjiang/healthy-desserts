@@ -381,6 +381,10 @@ body {
     --pink-1:#FDE9ea;
     --pink-2: #ffddd6;
     --pink-3: #f1b6ac;
+    --green-1:#ACD1AF;
+    --green-2:#ACD1C2;
+    --green-3:#BCD1AC;
+    
   }
 
   header{
@@ -465,6 +469,7 @@ nav a, div a{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 20px;
 }
 
 .generate{
@@ -647,4 +652,17 @@ div.generatepage {
   margin-left: auto;
   margin-right: auto;
   display: block;
+}
+
+.education{
+  max-width: 800px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-family: 'Palanquin',sans-serif;
+  font-size: 20px;
+}
+
+/* buttton on click */
+.button:active, .choices:active, .longchoices:active, .frontbutton:active, .generate:active{
+  background-color: var(--green-3);
 }
