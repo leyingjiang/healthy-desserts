@@ -1,30 +1,14 @@
 /* WRITE YOUR JS HERE... YOU MAY REQUIRE MORE THAN ONE JS FILE. IF SO SAVE IT SEPARATELY IN THE SCRIPTS DIRECTORY */
 
-/* calories related choices  */
 const dessertChoices = Array.from(document.getElementsByName('dessert-choices'));
-const fruitChoiceFB = Array.from(document.getElementsByName("fruit-choice-fb"));
-const extraChoiceFB = Array.from(document.getElementsByName("extra-choice-fb"));
-const flourChoiceC = Array.from(document.getElementsByName("flour-choice-c"));
-const extraChoiceC = Array.from(document.getElementsByName("extra-choice-c"));
-const beanChoiceB = Array.from(document.getElementsByName("bean-choice-b"));
-const extraChoiceB = Array.from(document.getElementsByName("extra-choice-c"));
-
-const btn = document.getElementById('showDessertBtn');
-const fruitCaloriesBtn = document.getElementById('showFruitCaloriesBtn');
-const totalCaloriesBtn = document.getElementById("showTotalCaloriesBtn");
+const flourChoices = Array.from(document.getElementsByName('flour-choices'));
+const milkChoices = Array.from(document.getElementsByName('milk-choices'));
+const sugarChoices = Array.from(document.getElementsByName('sugar-choices'));
+const syrupChoices = Array.from(document.getElementsByName('syrup-choices'));
+const fruitChoices = Array.from(document.getElementsByName('fruit-choices'));
+const btn = document.getElementById('resultBtn');
 
 btn.addEventListener('click', getDessertAnswers);
-fruitCaloriesBtn.addEventListener('click', getFruitFBCalories);
-totalCaloriesBtn.addEventListener('click',calculateTotalCalories);
-
-/*
-const FirstChoice = Array.from(fruitChoiceFB, flourChoiceC, beanChoiceB);
-const SecondChoice = Array.from(extraChoiceFB, extraChoiceC, extraChoiceB);
-*/
-/* inputs */
-const performanceInput = document.querySelector("#performance");
-const caloriesInput = document.querySelector("#calories");
-
 
 function getDessertAnswers() {
   let userChoices = [];
@@ -34,71 +18,47 @@ function getDessertAnswers() {
       userChoices.push(choice.value);
     }
   });
-}
-
-function getFruitFBCalories() {
-  let fruitFBCalories = [];
-  fruitChoiceFB.forEach(choice =>{
+  flourChoices.forEach(choice =>{
     if (choice.checked){
       console.log(choice.value);
-      fruitFBCalories.push(choice.value);
+      userChoices.push(choice.value);
     }
   });
-}
-
-function getExtraFBCalories(userChoices) {
-  let extraFBCalories = [];
-  extraChoiceFB.forEach(choice => {
+  milkChoices.forEach(choice => {
     if(choice.checked) {
       console.log(choice.value);
-      extraFBCalories.push(choice.value);
+      userChoices.push(choice.value);
       }
   });
-}
-
-function getFlourCCalories(){
-  let flourCCalories = [];
-  flourChoiceC.forEach(choice => {
+  sugarChoices.forEach(choice => {
     if (choice.checked) {
       console.log(choice.value);
-      flourCCalories.push(choice.value);
+      userChoices.push(choice.value);
     }
   });
-}
-
-function getExtraCCalories() {
-  let extraCCalories = [];
-  extraChoiceC.forEach(choice => {
+  syrupChoices.forEach(choice => {
     if(choice.checked) {
       console.log(choice.value);
-      extraCCalories.push(choice.value);
+      userChoices.push(choice.value);
       }
   });
-}
-
-function getBeanBCalories(){
-  let beanBCalories = [];
-  beanChoiceB.forEach(choice => {
+  fruitChoices.forEach(choice => {
     if (choice.checked) {
       console.log(choice.value);
-      beanBCalories.push(choice.value);
+      userChoices.push(choice.value);
     }
   });
+  let totalCalories = null;
+  totalCalories = userChoices[1].value + userChoices[2].value + userChoices[3].value + userChoices[4].value + userChoices[5];
+  console.log(totalCalories);
+  printData("Dear Player, the dessert you made: " + userChoices[0] + " contains the total calories of " + totalCalories ". Thank you for your participation!", btn);
 }
 
-function getExtraBCalories() {
-  let extraBCalories = [];
-  extraChoiceB.forEach(choice => {
-    if(choice.checked) {
-      console.log(choice.value);
-      extraBCalories.push(choice.value);
-      }
-  });
+function printData(message,destination){
+  destination.value = message;
 }
 
-function calculateTotalCalories (){
- 
-}
+
 
 
 /*let totalCalories = null;
