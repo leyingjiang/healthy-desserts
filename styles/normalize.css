@@ -660,6 +660,55 @@ div.game{
   color:#987554;
 }
 
+.dessertscolumn {
+  float: left;
+  width: 33%;
+  margin-bottom: 20px;
+  padding: 0 8px;
+}
+
+
+@media screen and (max-width: 650px) {
+  .platescolumn {
+    width: 100%;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .card {
+    width: 100%;
+    display: block;
+  }
+}
+
+.dessertscard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.dessertscontainer {
+  padding-bottom: 10px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+.dessertscontainer::after,
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+h2 {
+  color: #008cba;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-left: 20%;
+  padding-right: 20%; 
+  padding-top: 5px;
+}
+
+
 article img{
   height: 100%;
   width: auto;
@@ -759,54 +808,8 @@ label {
 .button:hover, .option:hover, .frontbutton:hover, .previous:hover, .next:hover, .restart:hover{
   background-color: var(--green-3);
   cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🍰</text></svg>") 16 0,auto; /*!emojicursor.app*/
-/* desserts recipes */
 
-.dessertscolumn{
-  float: left;
-  width: 33%;
-  margin-bottom: 10px;
-  padding: 0 8px;
-}
 
-@media screen and (max-width: 650px) {
-  .platescolumn {
-    width: 100%;
-    display: block;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  .card {
-    width: 100%;
-    display: block;
-  }
-}
-
-.dessertscard {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.dessertscontainer {
-  padding-bottom: 10px;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  text-align: center;
-}
-
-.dessertscontainer::after,
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-h2 {
-  color: #008cba;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  padding-left: 20%;
-  padding-right: 20%; 
-  padding-top: 5px;
-}
 
 
 .plate1button {
