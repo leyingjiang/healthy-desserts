@@ -126,7 +126,7 @@ function loadNextQuestion () {
         result.innerHTML =
          `<h1 class="final-score">Your Activity Score: ${totalScore}</h1>
          <div class="summary">
-            <h2>Now that you have the point score correlated with your day, see below for which plate will be ideal to help you recover and thrive in your next session! </h2>
+            <h2>Now that you have the health score of the dessert you made! See more detailed recipes below!</h2>
             <p>1 to 5 points - Not That Healthy</p>
             <p>6 to 9 points - Average Healthy</p>
             <p>10+ points - Very Healthy! </p>
