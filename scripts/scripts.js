@@ -16,7 +16,7 @@ const questions = [
     "answer1Total": "1",
     "answer2": "Oat Flour",
     "answer2Total": "2",
-    "answer3": "MWhole Wheat Flour",
+    "answer3": "Whole Wheat Flour",
     "answer3Total": "3"
   },
   {
@@ -126,13 +126,14 @@ function loadNextQuestion () {
         result.innerHTML =
          `<h1 class="final-score">Your Activity Score: ${totalScore}</h1>
          <div class="summary">
-            <h2>Now that you have the health score of the dessert you made! See more detailed recipes below!</h2>
-            <p>1 to 5 points - Not That Healthy</p>
-            <p>6 to 9 points - Average Healthy</p>
-            <p>10+ points - Very Healthy! </p>
+            <h2>You did it!</h2>
+            <h2>See the health score of the dessert you made.</h2>
+            <p>1 to 6 points - Not That Healthy</p>
+            <p>7 to 12 points - Average Healthy</p>
+            <p>12+ points - Very Healthy! </p>
             <h3> See More Recipes Below </h3>
         </div>
-        <button class="restart">Restart Quiz</button>
+        <button class="restart">Restart Game</button>
          `;
         return;
     }
