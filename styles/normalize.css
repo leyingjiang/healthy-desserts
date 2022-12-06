@@ -466,7 +466,7 @@ nav a, div a{
 .slide{
   background-color: #E5D3B3;
   border-radius: 8%;
-  height: 400px;
+  height: 600px;
   width: 500px;
   margin-left: auto;
   margin-right: auto;
@@ -658,6 +658,10 @@ label {
   justify-content:center;
   cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🍰</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
+
+
+
+
 
 
 /* buttton on click */
