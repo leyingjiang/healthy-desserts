@@ -1,21 +1,42 @@
 /* WRITE YOUR JS HERE... YOU MAY REQUIRE MORE THAN ONE JS FILE. IF SO SAVE IT SEPARATELY IN THE SCRIPTS DIRECTORY */
 
 /* calories related choices  */
+const dessertChoices = Array.from(document.getElementsByName('dessert-choices'));
 const fruitChoiceFB = Array.from(document.getElementsByName("fruit-choice-fb"));
 const extraChoiceFB = Array.from(document.getElementsByName("extra-choice-fb"));
 const flourChoiceC = Array.from(document.getElementsByName("flour-choice-c"));
 const extraChoiceC = Array.from(document.getElementsByName("extra-choice-c"));
 const beanChoiceB = Array.from(document.getElementsByName("bean-choice-b"));
 const extraChoiceB = Array.from(document.getElementsByName("extra-choice-c"));
+const btn = document.getElementById('showDessertBtn');
 
+btn.addEventListener('click', getDessertAnswers);
+
+
+
+/*
 const FirstChoice = Array.from(fruitChoiceFB, flourChoiceC, beanChoiceB);
 const SecondChoice = Array.from(extraChoiceFB, extraChoiceC, extraChoiceB);
-
+*/
 /* inputs */
 const performanceInput = document.querySelector("#performance");
 const caloriesInput = document.querySelector("#calories");
 
-/* buttons add eventlistener */
+
+function getDessertAnswers() {
+  let userChoices = [];
+  dessertChoices.forEach(choice => {
+    if (choice.checked) {
+      console.log(choice.value);
+      userChoices.push(choice.value);
+    }
+    
+  });
+
+}
+
+
+/* buttons add eventlistener 
 FirstChoice[0].addEventListener("change", getFirstChoice);
 FirstChoice[1].addEventListener("change",getFirstChoice);
 FirstChoice[2].addEventListener("change",getFirstChoice);
@@ -28,8 +49,8 @@ SecondChoice[2].addEventListener("change",getSecondChoice);
 SecondChoice[3].addEventListener("change",getSecondChoice);
 SecondChoice[4].addEventListener("change",getSecondChoice);
 SecondChoice[5].addEventListener("change",getSecondChoice);
-
-/* functions */
+*/
+/* functions 
 
 function getFirstChoice() {
     let firstCalories = null;
@@ -56,7 +77,7 @@ function getTotalCalories(firstCalories, secondCalories) {
     caloriesInput.value = firstCalories + secondCalories;
 }
 
-
+*/
 
 
 const questions = [
