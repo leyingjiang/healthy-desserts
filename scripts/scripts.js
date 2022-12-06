@@ -33,7 +33,7 @@ function getDessertAnswers() {
   });
 }
 
-function getFruitFbCalories() {
+function getFruitFBCalories() {
   let fruitFbCalories = [];
   fruitChoiceFB.forEach(choice =>{
     if (choice.checked){
@@ -62,9 +62,6 @@ function getBeanBCalories(){
     }
   });
 }
-
-
-
 
 /* buttons add eventlistener 
 FirstChoice[0].addEventListener("change", getFirstChoice);
