@@ -663,10 +663,9 @@ div.game{
 .dessertscolumn {
   float: left;
   width: 33%;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   padding: 0 8px;
 }
-
 
 @media screen and (max-width: 650px) {
   .platescolumn {
@@ -699,15 +698,6 @@ div.game{
   clear: both;
   display: table;
 }
-
-h2 {
-  color: #008cba;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  padding-left: 20%;
-  padding-right: 20%; 
-  padding-top: 5px;
-}
-
 
 article img{
   height: 100%;
