@@ -59,7 +59,7 @@ function getTotalCalories(firstCalories, secondCalories) {
 
 
 
-const recipeData = [
+const questions = [
     {
       id: 'slug-1',
       name: 'FruitBowl1',
