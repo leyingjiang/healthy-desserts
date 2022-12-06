@@ -33,14 +33,24 @@ function getDessertAnswers() {
   });
 }
 
-function getFruitFBCalories() {
-  let fruitFBCalories = [];
+function getFruitFbCalories() {
+  let fruitFbCalories = [];
   fruitChoiceFB.forEach(choice =>{
     if (choice.checked){
       console.log(checked.value);
-      fruitFBCalories.push(choice.value);
+      fruitChoiceFB.push(choice.value);
     }
   });
+}
+
+function getExtraFbCalories() {
+  let extraFbCalories = [];
+  extraChoiceFB.forEach(choice => {
+      if(choice.checked) {
+          console.log(choice.value);
+          userChoices.push(choice.value)
+      }
+  })
 }
 
 function getFlourCCalories(){
@@ -53,6 +63,16 @@ function getFlourCCalories(){
   });
 }
 
+function getExtraCCalories() {
+  let extraCCalories = [];
+  extraChoiceC.forEach(choice => {
+      if(choice.checked) {
+          console.log(choice.value);
+          userChoices.push(choice.value)
+      }
+  })
+}
+
 function getBeanBCalories(){
   let beanBCalories = [];
   beanChoiceB.forEach(choice => {
@@ -63,7 +83,15 @@ function getBeanBCalories(){
   });
 }
 
-
+function getExtraBCalories() {
+  let extraBCalories = [];
+  extraChoiceB.forEach(choice => {
+      if(choice.checked) {
+          console.log(choice.value);
+          userCHoices.push(choice.value)
+      }
+  })
+}
 
 
 
