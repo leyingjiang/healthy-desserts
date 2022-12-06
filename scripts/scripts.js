@@ -30,10 +30,40 @@ function getDessertAnswers() {
       console.log(choice.value);
       userChoices.push(choice.value);
     }
-    
   });
-
 }
+
+function getFruitFbCalories() {
+  let fruitFbCalories = [];
+  fruitChoiceFB.forEach(choice =>{
+    if (choice.checked){
+      console.log(checked.value);
+      fruitChoiceFB.push(choice.value);
+    }
+  });
+}
+
+function getFlourCCalories(){
+  let flourCCalories = [];
+  flourChoiceC.forEach(choice => {
+    if (choice.checked) {
+      console.log(choice.value);
+      flourCCalories.push(choice.value);
+    }
+  });
+}
+
+function getBeanBCalories(){
+  let beanBCalories = [];
+  beanChoiceB.forEach(choice => {
+    if (choice.checked) {
+      console.log(choice.value);
+      beanBCalories.push(choice.value);
+    }
+  });
+}
+
+
 
 
 /* buttons add eventlistener 
