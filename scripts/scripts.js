@@ -96,6 +96,21 @@ function getExtraBCalories() {
 }
 
 
+function calculateTotalCalories (){
+  let totalCalories = null;
+  userChoices.forEach(choice => {
+    if (choice.value == "fruit-bowl"){
+      totalCalories = (fruitFBCalories + extraFBCalories);
+    }
+    if (choice.value == "cookie"){
+      totalCalories = (flourCCalories + extraCCalories);
+    }
+    if (choice.value) == "brownie"{
+      totalCalories = (beanBCalories + extraBCalories);
+    }
+  });
+}
+
 
 
 /* buttons add eventlistener 
