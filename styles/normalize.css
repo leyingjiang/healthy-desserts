@@ -538,40 +538,6 @@ nav a, div a{
   margin: 3px;
 }
 
-label {
-  background: var(--pink-1);
-  list-style: none;
-  font-size: 20px;
-  font-family: 'Patrick Hand SC', cursive;
-  font-weight: bold;
-  text-align: center;
-  border-radius: 10px;
-  height: 60px;
-  width: 400px;
-  margin: 3px;
-  text-align: center;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content:center;
-  cursor: pointer;
-  .transition;
-}
-
-.longchoices{
-  background: var(--pink-1);
-  list-style: none;
-  font-size: 20px;
-  font-family: 'Patrick Hand SC', cursive;
-  font-weight: bold;
-  text-align: center;
-  border-radius: 10px;
-  height: 60px;
-  width: 400px;
-  margin: 3px;
-  block-size: fit-content;
-}
-
 nav.frontfoot{
   display: flex;
   flex-direction: row;
@@ -672,6 +638,25 @@ div.generatepage {
 .icons{
   height: 90px;
   width:auto;
+}
+
+
+label {
+  background: var(--pink-1);
+  font-size: 20px;
+  font-family: 'Patrick Hand SC', cursive;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+  height: 60px;
+  width: 400px;
+  margin: 3px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content:center;
+  cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🍰</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
 
 
