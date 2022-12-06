@@ -660,6 +660,10 @@ label {
 }
 
 
+
+
+
+
 /* buttton on click */
 .button:hover, .choices:hover, .longchoices:hover, .frontbutton:hover, .generate:hover{
   background-color: var(--green-3);
