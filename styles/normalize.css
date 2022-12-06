@@ -402,7 +402,6 @@ body {
     color: #664229;
     font-size: 105px;
     padding-top: 100px;
-    padding-bottom: 100px;
     font-weight: bold;
     -webkit-text-stroke-width: 1.3px;
     -webkit-text-stroke-color: white;
@@ -668,7 +667,14 @@ div.generatepage {
   font-size: 20px;
 }
 
+.icons{
+  height: 90px;
+  width:auto;
+}
+
 /* buttton on click */
 .button:hover, .choices:hover, .longchoices:hover, .frontbutton:hover, .generate:hover{
   background-color: var(--green-3);
   cursor:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🍰</text></svg>") 16 0,auto; /*!emojicursor.app*/
+
+
