@@ -159,8 +159,6 @@ function restartQuiz(e) {
     location.reload();
     }
 
-function getTotalCalories(firstCalories, secondCalories) {
-    caloriesInput.value = firstCalories + secondCalories;
 }
 
 generateQuestions(currentQuestion);
