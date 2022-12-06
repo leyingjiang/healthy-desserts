@@ -8,10 +8,12 @@ const flourChoiceC = Array.from(document.getElementsByName("flour-choice-c"));
 const extraChoiceC = Array.from(document.getElementsByName("extra-choice-c"));
 const beanChoiceB = Array.from(document.getElementsByName("bean-choice-b"));
 const extraChoiceB = Array.from(document.getElementsByName("extra-choice-c"));
+
 const btn = document.getElementById('showDessertBtn');
+const fruitCaloriesBtn = document.getElementById('showFruitCaloriesBtn');
 
 btn.addEventListener('click', getDessertAnswers);
-
+fruitCaloriesBtn.addEventListener('click', getFruitFBCalories);
 
 
 /*
@@ -33,24 +35,24 @@ function getDessertAnswers() {
   });
 }
 
-function getFruitFbCalories() {
-  let fruitFbCalories = [];
+function getFruitFBCalories() {
+  let fruitFBCalories = [];
   fruitChoiceFB.forEach(choice =>{
     if (choice.checked){
-      console.log(checked.value);
-      fruitChoiceFB.push(choice.value);
+      console.log(choice.value);
+      fruitFBCalories.push(choice.value);
     }
   });
 }
 
-function getExtraFbCalories() {
-  let extraFbCalories = [];
+function getExtraFBCalories() {
+  let extraFBCalories = [];
   extraChoiceFB.forEach(choice => {
-      if(choice.checked) {
-          console.log(choice.value);
-          userChoices.push(choice.value)
+    if(choice.checked) {
+      console.log(choice.value);
+      extraFBCalories.push(choice.value);
       }
-  })
+  });
 }
 
 function getFlourCCalories(){
@@ -66,11 +68,11 @@ function getFlourCCalories(){
 function getExtraCCalories() {
   let extraCCalories = [];
   extraChoiceC.forEach(choice => {
-      if(choice.checked) {
-          console.log(choice.value);
-          userChoices.push(choice.value)
+    if(choice.checked) {
+      console.log(choice.value);
+      extraCCalories.push(choice.value);
       }
-  })
+  });
 }
 
 function getBeanBCalories(){
@@ -86,12 +88,13 @@ function getBeanBCalories(){
 function getExtraBCalories() {
   let extraBCalories = [];
   extraChoiceB.forEach(choice => {
-      if(choice.checked) {
-          console.log(choice.value);
-          userCHoices.push(choice.value)
+    if(choice.checked) {
+      console.log(choice.value);
+      extraBCalories.push(choice.value);
       }
-  })
+  });
 }
+
 
 
 
