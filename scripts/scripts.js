@@ -50,7 +50,7 @@ function getExtraFbCalories() {
           console.log(choice.value);
           userChoices.push(choice.value)
       }
-  })
+  });
 }
 
 function getFlourCCalories(){
@@ -70,7 +70,7 @@ function getExtraCCalories() {
           console.log(choice.value);
           userChoices.push(choice.value)
       }
-  })
+  });
 }
 
 function getBeanBCalories(){
@@ -90,7 +90,7 @@ function getExtraBCalories() {
           console.log(choice.value);
           userCHoices.push(choice.value)
       }
-  })
+  });
 }
 
 
