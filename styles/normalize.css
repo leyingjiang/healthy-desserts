@@ -173,8 +173,8 @@ textarea {
  * 1. Show the overflow in Edge.
  */
 
-button,
-input { /* 1 */
+input,
+button { /* 1 */
   overflow: visible;
 }
 
@@ -183,7 +183,7 @@ input { /* 1 */
  * 1. Remove the inheritance of text transform in Firefox.
  */
 
-button,
+.button,
 select { /* 1 */
   text-transform: none;
 }
@@ -538,7 +538,7 @@ nav a, div a{
   margin: 3px;
 }
 
-.choices{
+label {
   background: var(--pink-1);
   list-style: none;
   font-size: 20px;
@@ -554,6 +554,8 @@ nav a, div a{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content:center;
+  cursor: pointer;
+  .transition;
 }
 
 .longchoices{
@@ -588,7 +590,7 @@ nav.foot{
   margin-bottom: 70px;
 }
 
-div.game{
+div.slide{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -671,6 +673,7 @@ div.generatepage {
   height: 90px;
   width:auto;
 }
+
 
 /* buttton on click */
 .button:hover, .choices:hover, .longchoices:hover, .frontbutton:hover, .generate:hover{
