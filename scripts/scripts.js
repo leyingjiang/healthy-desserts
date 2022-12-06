@@ -33,12 +33,12 @@ function getDessertAnswers() {
   });
 }
 
-function getFruitFbCalories() {
-  let fruitFbCalories = [];
+function getFruitFBCalories() {
+  let fruitFBCalories = [];
   fruitChoiceFB.forEach(choice =>{
     if (choice.checked){
       console.log(checked.value);
-      fruitChoiceFB.push(choice.value);
+      fruitFBCalories.push(choice.value);
     }
   });
 }
@@ -62,6 +62,7 @@ function getBeanBCalories(){
     }
   });
 }
+
 
 
 
