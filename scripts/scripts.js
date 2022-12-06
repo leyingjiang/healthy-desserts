@@ -36,6 +36,7 @@ function getFirstChoice() {
     FirstChoice.forEach((item) => {
         if (item.checked){
             firstCalories = item.value;
+            console.log(firstCalories);
         }
     });
     getTotalCalories(firstCalories);
