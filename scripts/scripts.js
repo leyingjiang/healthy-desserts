@@ -11,10 +11,11 @@ const extraChoiceB = Array.from(document.getElementsByName("extra-choice-c"));
 
 const btn = document.getElementById('showDessertBtn');
 const fruitCaloriesBtn = document.getElementById('showFruitCaloriesBtn');
+const totalCaloriesBtn = document.getElementById("showTotalCaloriesBtn");
 
 btn.addEventListener('click', getDessertAnswers);
 fruitCaloriesBtn.addEventListener('click', getFruitFBCalories);
-
+totalCaloriesBtn.addEventListener('click',calculateTotalCalories);
 
 /*
 const FirstChoice = Array.from(fruitChoiceFB, flourChoiceC, beanChoiceB);
@@ -45,7 +46,7 @@ function getFruitFBCalories() {
   });
 }
 
-function getExtraFBCalories() {
+function getExtraFBCalories(userChoices) {
   let extraFBCalories = [];
   extraChoiceFB.forEach(choice => {
     if(choice.checked) {
@@ -95,23 +96,23 @@ function getExtraBCalories() {
   });
 }
 
-
 function calculateTotalCalories (){
-  let totalCalories = null;
-  userChoices.forEach(choice => {
-    if (choice.value == "fruit-bowl"){
-      totalCalories = (fruitFBCalories + extraFBCalories);
-    }
-    if (choice.value == "cookie"){
-      totalCalories = (flourCCalories + extraCCalories);
-    }
-    if (choice.value) == "brownie"{
-      totalCalories = (beanBCalories + extraBCalories);
-    }
-  });
+ 
 }
 
 
+/*let totalCalories = null;
+userChoices.forEach(choice =>{
+  if(choice.value === "fruit-bowl"){
+    totalCalories = (fruitFBCalories + extraFBCalories);
+  }
+  if (choice.value === "cookie"){
+    totalCalories = (flourCCalories + extraCCalories);
+  }
+  if (choice.value === "brownie"){
+    totalCalories = (beanBCalories + extraBCalories);
+  }
+});
 
 /* buttons add eventlistener 
 FirstChoice[0].addEventListener("change", getFirstChoice);
