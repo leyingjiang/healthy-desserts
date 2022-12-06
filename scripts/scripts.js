@@ -124,7 +124,7 @@ function loadNextQuestion () {
     if(currentQuestion == totalQuestions) {
         container.style.display = 'none';
         result.innerHTML =
-         `<h1 class="final-score">Your Activity Score: ${totalScore}</h1>
+         `<h1 class="final-score">Your Health Score: ${totalScore}</h1>
          <div class="summary">
             <h2>You did it!</h2>
             <h2>See the health score of the dessert you made.</h2>
