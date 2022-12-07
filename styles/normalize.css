@@ -868,7 +868,11 @@ div ul{
   border-radius: 30%;
 }
 
-
+.dessertimg{
+  width: 150px;
+  height: auto;
+  border-radius: 30%;
+}
 
 /* buttton on click */
 .button:hover, .option:hover, .frontbutton:hover, .previous:hover, .next:hover, .restart:hover{
