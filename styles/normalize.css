@@ -864,6 +864,12 @@ div ul{
   color:#664229;
 }
 
+.recipeimg {
+  border-radius: 30%;
+}
+
+
+
 /* buttton on click */
 .button:hover, .option:hover, .frontbutton:hover, .previous:hover, .next:hover, .restart:hover{
   background-color: var(--green-3);
