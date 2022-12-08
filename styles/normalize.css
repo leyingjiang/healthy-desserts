@@ -481,7 +481,7 @@ nav a, div a{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+    margin-top: 20px;
 }
 
 .generate{
@@ -689,14 +689,14 @@ div.game{
 
 .dessertscard {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  box-sizing: fit-content;
+  block-size: fit-content;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .dessertscontainer {
   padding-bottom: 10px;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  text-align: center;
+  text-align: center; 
   margin-left: auto;
   margin-right: auto;
 }
@@ -855,7 +855,7 @@ label {
   width: 40%;
   height: 60px;
   margin-left: 3px;
-   }
+}
 
 div ul{
   font-family:'Palanquin', sans-serif;
