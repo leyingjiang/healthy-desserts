@@ -895,7 +895,9 @@ h4{
     color: #664229;
     font-size: 30px;
     line-height: 10px;
+    margin-top: auto;
 }
+
 
 /* buttton on click */
 .button:hover, .option:hover, .frontbutton:hover, .previous:hover, .next:hover, .restart:hover{
