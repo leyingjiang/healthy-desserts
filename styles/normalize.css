@@ -453,7 +453,7 @@ h3{
     font-family: 'Palanquin', sans-serif;
     color: #664229;
     font-weight:bold;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
 }
 
@@ -898,21 +898,13 @@ label {
   cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🍰</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
 
-
-div ul{
-  font-family:'Palanquin', sans-serif;
-  color: #593f25;
-  font-size: 15px;
-  text-align: center;
-  list-style: none;
-}
-
 div ol{
   font-family: 'Palanquin', sans-serif;
   color: #5f4934;
   font-size: 15px;
   line-height: 30px;
   text-align: left;
+  padding-bottom: 50px;
 }
 
 .final-score{
@@ -948,6 +940,7 @@ h4{
 .dessertscolumn ol{
   list-style: none;
   text-align: left;
+  padding-bottom: 60px;
 }
 
 /* buttton on click */
