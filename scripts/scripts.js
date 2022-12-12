@@ -134,13 +134,8 @@ function loadNextQuestion () {
             <img src="images/cookie.png" class="recipeimg">
               <div class="dessertscontainer">
                 <h2>Chocolate Chip Cookie</h2>
-<<<<<<< HEAD
-                <ul>
-                  <li>1/4 cup coconut oil</li>
-=======
                 <ol>
-                  <li>1/4 cup coconut oil (no butter & no egg)</li>
->>>>>>> 638fb58ee802509e98048e54fd9d64594afe072d
+                  <li>1/4 cup coconut oil</li>
                   <li>1/4 cup brown sugar (as applesauce and sugar)</li>
                   <li>1 tablespoon vanilla extras</li>
                   <li>Whole wheat flour</li>

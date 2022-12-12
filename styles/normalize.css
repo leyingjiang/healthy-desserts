@@ -912,6 +912,7 @@ div ol{
   color: #5f4934;
   font-size: 15px;
   line-height: 30px;
+  text-align: left;
 }
 
 .final-score{
@@ -924,6 +925,8 @@ div ol{
 
 .recipeimg {
   border-radius: 30%;
+  width: 100%;
+  height: auto;
 }
 
 .dessertimg{
@@ -938,11 +941,12 @@ h4{
     font-size: 30px;
     line-height: 10px;
     padding-top: 60px;
-    text-align:center;
+    text-align: center;
 
 }
 
-div.recommendation{
+.dessertscolumn ol{
+  list-style: none;
   text-align: left;
 }
 
