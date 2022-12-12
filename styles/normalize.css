@@ -887,59 +887,6 @@ label {
   cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg'  width='40' height='48' viewport='0 0 100 100' style='fill:black;font-size:24px;'><text y='50%'>🍰</text></svg>") 16 0,auto; /*!emojicursor.app*/
 }
 
-.plate1button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: orange;
-  text-align: center;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  cursor: pointer;
-  width: 100%;
-}
-.plate2button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: orange;
-  text-align: center;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  cursor: pointer;
-  width: 100%;
-}
-.plate3button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: orange;
-  text-align: center;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  cursor: pointer;
-  width: 100%;
-}
-
-.button:hover {
-  background-color: #555;
-}
-
-
-.card{
-  float: left;
-  width: 30%;
-}
-
-.aboutcard{
-  display: inline-block;
-  width: 40%;
-  height: 60px;
-  margin-left: 3px;
-}
 
 div ul{
   font-family:'Palanquin', sans-serif;
