@@ -131,11 +131,11 @@ function loadNextQuestion () {
         <div class="row">
           <div class="dessertscolumn" id="bottominfo">
             <div class="dessertscard">
-            <img src="images/cookie.png" style="width:100%" class="recipeimg">
+            <img src="images/cookie.png" class="recipeimg">
               <div class="dessertscontainer">
                 <h2>Chocolate Chip Cookie</h2>
                 <ul>
-                  <li>1/4 cup coconut oil (no butter & no egg)</li>
+                  <li>1/4 cup coconut oil</li>
                   <li>1/4 cup brown sugar (as applesauce and sugar)</li>
                   <li>1 tablespoon vanilla extras</li>
                   <li>Whole wheat flour</li>
@@ -148,12 +148,12 @@ function loadNextQuestion () {
 
           <div class="dessertscolumn" id="bottominfo">
             <div class="dessertscard">
-              <img src="images/brownie.png" style="width:100%" class="recipeimg">
+              <img src="images/brownie.png" class="recipeimg">
               <div class="dessertscontainer">
                 <h2>Caramel Brownie</h2>
                 <ul>
                   <li>1 cup black beans</li>
-                  <li>3 tablespoons coconut oil/ vegetable oil</li>
+                  <li>3 tablespoons coconut oil</li>
                   <li>1/4 cup cocoa powder</li>
                   <li>1/4 tablespoon sea salt</li>
                   <li>1/4 cup honey</li>
@@ -166,14 +166,14 @@ function loadNextQuestion () {
   
           <div class="dessertscolumn" id="bottominfo">
             <div class="dessertscard">
-              <img src="images/pancake.png" style="width:100%" class="recipeimg">
+              <img src="images/pancake.png" class="recipeimg">
               <div class="dessertscontainer">
                 <h2>Pancake</h2>
                 <ul>
                   <li>2 cups Old Fashioned rolled oats</li>
                   <li>1 large egg</li>
                   <li>1/2 cup milk of choice</li>
-                  <li>2 tablespoons salted butter, melted</li>
+                  <li>2 tablespoons salted butter</li>
                   <li>1 tablespoon brwon sugar</li>
                   <li>1/2 tablespoon vanilla extra</li>
                   <li>1 tablespoon baking powder</li>

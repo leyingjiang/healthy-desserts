@@ -626,7 +626,7 @@ nav a, div a{
   border-radius: 10px;
   height: 40px;
   width: 280px;
-  margin: 3px;
+  margin-left: 3px;
 }
 
 nav.frontfoot{
@@ -711,13 +711,12 @@ div.game{
 .result {
   display: flex;
   flex-direction: column;
-  padding: 0.8rem;
   justify-content: center;
   align-items: center;
   text-align: center;
   font-size: 2.5rem;
   min-height: 500px;
-  width: 600px;
+  width: 850px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
@@ -771,8 +770,16 @@ div.game{
   }
 }
 
+@media screen and (max-width: 650px) {
+  .result {
+    width: 100%;
+    display: block;
+  }
+}
+
+
 .dessertscard {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.2);
   block-size: fit-content;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -913,6 +920,8 @@ div ol{
 
 .recipeimg {
   border-radius: 30%;
+  width: 100%;
+  height: auto;
 }
 
 .dessertimg{
@@ -933,6 +942,8 @@ h4{
 
 div.recommendation{
   text-align: left;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 /* buttton on click */
