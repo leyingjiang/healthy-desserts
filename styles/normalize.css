@@ -939,6 +939,7 @@ h4{
 div.recommendation{
   text-align: left;
   font-family: 'Palanquin', sans-serif;
+  margin-bottom: 30px;
 }
 
 /* buttton on click */
