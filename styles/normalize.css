@@ -772,18 +772,22 @@ div.game{
 }
 
 .dessertscard {
+  padding-top: 10px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   block-size: fit-content;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family:'Palanquin', sans-serif;
 }
 
 .dessertscontainer {
+  
   padding-bottom: 10px;
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family:'Palanquin', sans-serif;
   text-align: center; 
   margin-left: auto;
   margin-right: auto;
 }
+
+
 
 .dessertscontainer::after,
 .row::after {
@@ -912,13 +916,13 @@ div ol{
 }
 
 .recipeimg {
-  border-radius: 30%;
+  border-radius: 10%;
 }
 
 .dessertimg{
   width: 150px;
   height: auto;
-  border-radius: 30%;
+  border-radius: 10%;
 }
 
 h4{
@@ -933,6 +937,7 @@ h4{
 
 div.recommendation{
   text-align: left;
+  font-family: 'Palanquin', sans-serif;
 }
 
 /* buttton on click */
