@@ -497,6 +497,7 @@ h3{
 .team-member img{
   height: 250px;
   width: auto;
+  border-radius: 5%;
 }
 
 .documents{
@@ -521,6 +522,7 @@ h3{
 .document img{
   height: 250px;
   width: auto;
+  border-radius: 5%;
 }
 
 
@@ -538,12 +540,6 @@ h3{
   margin-left: 20px;
   margin-right: 20px;
 }
-
-
-
-
-
-
 
 
 .front-desserts img{
