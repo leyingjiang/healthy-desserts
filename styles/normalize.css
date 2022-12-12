@@ -481,7 +481,7 @@ nav a, div a{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
+    margin-top: 20px;
 }
 
 .generate{
@@ -689,13 +689,16 @@ div.game{
 
 .dessertscard {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  block-size: fit-content;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .dessertscontainer {
   padding-bottom: 10px;
   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  text-align: center;
+  text-align: center; 
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .dessertscontainer::after,
@@ -852,7 +855,7 @@ label {
   width: 40%;
   height: 60px;
   margin-left: 3px;
-   }
+}
 
 div ul{
   font-family:'Palanquin', sans-serif;
@@ -860,6 +863,13 @@ div ul{
   font-size: 15px;
   text-align: center;
   list-style: none;
+}
+
+div ol{
+  font-family: 'Palanquin', sans-serif;
+  color: #5f4934;
+  font-size: 15px;
+  line-height: 30px;
 }
 
 .final-score{
@@ -874,6 +884,19 @@ div ul{
   border-radius: 30%;
 }
 
+.dessertimg{
+  width: 150px;
+  height: auto;
+  border-radius: 30%;
+}
+
+h4{
+  font-family: 'Patrick Hand SC', cursive;
+    color: #664229;
+    font-size: 30px;
+    line-height: 10px;
+    margin-top: auto;
+}
 
 
 /* buttton on click */
