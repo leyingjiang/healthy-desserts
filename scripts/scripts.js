@@ -75,14 +75,13 @@ const previousButton = document.querySelector('.previous');
 const restartButton = document.querySelector('.restart');
 const result = document.querySelector('.result');
 
-//Generate question 
+ 
 function generateQuestions (index) {
-    //Select each question by passing it a particular index
     const question = questions[index];
     const option1Total = questions[index].answer1Total;
     const option2Total = questions[index].answer2Total;
     const option3Total = questions[index].answer3Total;
-    //Populate html elements 
+
     questionEl.innerHTML = `${index + 1}. ${question.question}`
     option1.setAttribute('data-total', `${option1Total}`);
     option2.setAttribute('data-total', `${option2Total}`);
@@ -95,15 +94,13 @@ function generateQuestions (index) {
 
 function loadNextQuestion () {
     const selectedOption = document.querySelector('input[type="radio"]:checked');
-    //Check if there is a radio input checked
     if(!selectedOption) {
         alert('Please select your answer!');
         return;
     }
-    //Get value of selected radio
+
     const answerScore = Number(selectedOption.nextElementSibling.getAttribute('data-total'));
 
-    ////Add the answer score to the score array
     score.push(answerScore);
 
     selectedAnswersData.push()
@@ -111,16 +108,14 @@ function loadNextQuestion () {
 
     const totalScore = score.reduce((total, currentNum) => total + currentNum);
 
-    //Finally we incement the current question number ( to be used as the index for each array)
     currentQuestion++;
 
-        //once finished clear checked
         selectedOption.checked = false;
-    //Final question
-    if(currentQuestion == totalQuestions - 1) {
+
+        if(currentQuestion == totalQuestions - 1) {
         nextButton.textContent = 'Finish';
     }
-    //Hide the questions container and show the results 
+
     if(currentQuestion == totalQuestions) {
         container.style.display = 'none';
         result.innerHTML =
@@ -212,23 +207,16 @@ function loadNextQuestion () {
     generateQuestions(currentQuestion);
 }
 
-//Load previous question
 function loadPreviousQuestion() {
-    //Decrement quentions index
     currentQuestion--;
-    //remove last array value;
     score.pop();
-    //Generate the question
     generateQuestions(currentQuestion);
 }
 
-//Reset and restart the quiz;
 function restartQuiz(e) {
     if(e.target.matches('button')) {
-    //reset array index and score
     currentQuestion = 0;
     score = [];
-    //Reload quiz
     location.reload();
     }
 
