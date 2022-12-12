@@ -776,13 +776,14 @@ div.game{
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   block-size: fit-content;
   font-family:'Palanquin', sans-serif;
+  text-align: center;
 }
 
 .dessertscontainer {
   
   padding-bottom: 10px;
   font-family:'Palanquin', sans-serif;
-  text-align: center; 
+  text-align: left; 
   margin-left: auto;
   margin-right: auto;
 }

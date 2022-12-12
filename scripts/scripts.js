@@ -134,14 +134,14 @@ function loadNextQuestion () {
             <img src="images/cookie.png" style="width:100%" class="recipeimg">
               <div class="dessertscontainer">
                 <h2>Chocolate Chip Cookie</h2>
-                <ul>
+                <ol>
                   <li>1/4 cup coconut oil (no butter & no egg)</li>
                   <li>1/4 cup brown sugar (as applesauce and sugar)</li>
                   <li>1 tablespoon vanilla extras</li>
                   <li>Whole wheat flour</li>
                   <li>150g dark chocolate chips</li>
                   <li>Optional: 20g cinnamon</li>
-                </ul>
+                </ol>
               </div>
               </div>
           </div>
@@ -151,7 +151,7 @@ function loadNextQuestion () {
               <img src="images/brownie.png" style="width:100%" class="recipeimg">
               <div class="dessertscontainer">
                 <h2>Caramel Brownie</h2>
-                <ul>
+                <ol>
                   <li>1 cup black beans</li>
                   <li>3 tablespoons coconut oil/ vegetable oil</li>
                   <li>1/4 cup cocoa powder</li>
@@ -159,7 +159,7 @@ function loadNextQuestion () {
                   <li>1/4 cup honey</li>
                   <li>1/2 teaspoon baking powder</li>
                   <li>1/2 cup caramel sauce</li>
-                </ul>
+                </ol>
               </div>
             </div>
           </div>
@@ -169,7 +169,7 @@ function loadNextQuestion () {
               <img src="images/pancake.png" style="width:100%" class="recipeimg">
               <div class="dessertscontainer">
                 <h2>Pancake</h2>
-                <ul>
+                <ol>
                   <li>2 cups Old Fashioned rolled oats</li>
                   <li>1 large egg</li>
                   <li>1/2 cup milk of choice</li>
@@ -178,7 +178,7 @@ function loadNextQuestion () {
                   <li>1/2 tablespoon vanilla extra</li>
                   <li>1 tablespoon baking powder</li>
                   <li>1/2 teaspoon salt</li>
-                </ul>
+                </ol>
               </div>
             </div>
           </div>
